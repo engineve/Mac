@@ -1,0 +1,3 @@
+sudo spctl --master-disable // to continue when you encounter "can't be opened because Apple cannot check it for malicious software"
+
+sudo spctl --master-enable // make it back
