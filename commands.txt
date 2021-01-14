@@ -3,3 +3,8 @@ sudo spctl --master-disable // to continue when you encounter "can't be opened b
 sudo spctl --master-enable 
 
 traceroute google.com  // trace back to server
+
+* telnet
+
+brew tap theeternalsw0rd/telnet
+brew install telnet
