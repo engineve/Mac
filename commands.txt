@@ -8,3 +8,7 @@ traceroute google.com  // trace back to server
 
 brew tap theeternalsw0rd/telnet
 brew install telnet
+
+
+
+ping -c 10 www.google.com
