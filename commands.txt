@@ -12,3 +12,6 @@ brew install telnet
 
 
 ping -c 10 www.google.com
+
+nslookup google.com  // name server lookup
+dig google.com
