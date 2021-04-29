@@ -15,3 +15,7 @@ ping -c 10 www.google.com
 
 nslookup google.com  // name server lookup
 dig google.com
+
+Additional Tools for Xcode.dmg > Hardware > Bluetooth Explorer
+    sudo defaults write bluetoothaudiod "Enable AptX codec" -bool true
+    sudo defaults write bluetoothaudiod "Enable AAC codec" -bool true
