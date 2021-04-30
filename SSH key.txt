@@ -2,5 +2,9 @@ ssh-keygen -t rsa -b 4096 -C 'your email' // provide email as a label
 
 eval "$(ssh-agent -s)"   // start the ssh-agent
 
-ssh-add -K ~/.ssh/id_rsa
+ssh-add -K ~/.ssh/id_rsa    // -k only for mac. key, not certificate
+
+    using ssh-add, you don't need to put password everytime you ssh to the remote server you want to access 
+
+    or on the remote server, find '~/.ssh/authorized_keys' and add public key using vim, nano etc
 
