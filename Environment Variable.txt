@@ -1,0 +1,25 @@
+Reference 
+
+    https://golangbyexample.com/understand-etc-paths-pathsd-mac/
+    https://postgresapp.com/
+
+MAC OS uses /etc/paths file and /etc/paths.d directory for setting up the value of PATH env variable
+
+cat /etc/paths    // paths are added to the PATH variable
+
+    /usr/local/bin
+    /usr/bin
+    /bin
+    /usr/sbin
+    /sbin
+
+ls -al /etc/paths.d   // paths that need to be added to the PATH variable
+
+    .
+    ..
+    
+
+Configure your $PATH to use the included command line tools(PostgreSQL)
+
+    sudo mkdir -p /etc/paths.d &&
+    echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
